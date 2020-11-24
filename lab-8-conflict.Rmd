@@ -14,6 +14,7 @@ library(tidyverse)
 Add a new code chunk in which you make a new little ggplot2 2D hex density plot using the built-in storms dataset as follows:
 ```{r}
 ggplot(data=storms, aes(x=pressure, y=wind))+
-  geom_hex()
+  geom_hex()+ 
+  scale_fill_gradient(low="blue", high ="yellow")
 ```
 
