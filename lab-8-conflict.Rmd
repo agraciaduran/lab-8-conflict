@@ -15,7 +15,13 @@ Add a new code chunk in which you make a new little ggplot2 2D hex density plot 
 ```{r}
 ggplot(data=storms, aes(x=pressure, y=wind))+
   geom_hex() +
+<<<<<<< HEAD
   scale_fill_gradient(low = "black", high = "magenta") + 
   theme_bw()
+=======
+  scale_fill_gradient(low = "black", high = "magenta")+
+  theme_minimal()
+
+>>>>>>> 37605151e42290a1d6b8babe2327a622bfa17943
 ```
 
